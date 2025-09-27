@@ -1,0 +1,135 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.background-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background: black;
+    color: white;
+  }
+
+.btn-home {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background: green;
+    color: white;
+    display: inline-block;
+    margin: 15px;
+}
+
+.btn-danger {
+    background: red;
+    color: white;
+}
+
+.btn-edit {
+    background: orange;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* Home */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.85); /* transparan putih */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.menu a {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background: #0056b3;
+}
+
+
+/* Tabel */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+
+/* Form */
+form {
+    margin: 20px 0;
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
